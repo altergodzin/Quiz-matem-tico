@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz matemático</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+
+<body>
+<h4 id="nomeJ1"></h4><span id="ponJ1"></span>
+<br>
+<h4 id="nomeJ2"></h4><span id="ponJ2"></span>
+<div class="container">
+	<center>
+		<h2 style="color: white;">Quiz De matemática!</h2>
+		<h3 id="askPepole"></h3>
+		<h3 id="resposta"></h3>
+		<div id="saida"></div>
+		<br>
+		<br>
+		<label>Envie seus números: <b style="color: red">Utilize qualquer numero</b></label>
+        <input type="password" id="number1" class="form-control" placeholder="numero 1">
+		<br>
+        <br>
+		<input type="password" id="number2" class="form-control" placeholder="numero 2">
+		<br>
+		<button onclick="enviar()" class="btn btn-success">enviar</button>
+	</center>
+</div>
+
+<script src="gamePage.js"></script>
+</body>
+</html>
